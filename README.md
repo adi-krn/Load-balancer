@@ -1,6 +1,7 @@
 # Load-balancer
 ## Implemented a practical load balancer
 **To run** it on your local system, follow : <br/>
+**Ensure you have docker installed on your system** <br/>
 **npm init -y** <br/>
 **npm i express** <br/>
 **docker build -t server-app:1.0.0 .** <br/>
