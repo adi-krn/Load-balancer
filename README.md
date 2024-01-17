@@ -7,7 +7,7 @@
 **docker build -t gateway:1.0.0 .**
 
 ## Running and Testing
-**docker container run -d -p 4001:4000 --name server-01 -e "server=one" server-app:1.0.0**
+**Run docker container run -d -p 4001:4000 --name server-01 -e "server=one" server-app:1.0.0**
 **docker container run -d -p 4002:4000 --name server-02 -e "server=two" server-app:1.0.0**
 **docker container run -d -p 4003:4000 --name server-03 -e "server=three" server-app:1.0.0**
 **till the no. of servers you want to redirect to**
