@@ -1,12 +1,12 @@
 # Load-balancer
 ## Implemented a practical load balancer
-**To run it on your local system, follow -** <br/>
+**To run** it on your local system, follow : <br/>
 **npm init -y** <br/>
 **npm i express** <br/>
 **docker build -t server-app:1.0.0 .** <br/>
 **docker build -t gateway:1.0.0 .** <br/>
 
-## Running and Testing
+## Running and Testing :
 **Run:** docker container run -d -p 4001:4000 --name server-01 -e "server=one" server-app:1.0.0 <br/>
 **Run:** docker container run -d -p 4002:4000 --name server-02 -e "server=two" server-app:1.0.0 <br/>
 **Run:** docker container run -d -p 4003:4000 --name server-03 -e "server=three" server-app:1.0.0 <br/><br/>
