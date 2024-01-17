@@ -7,9 +7,9 @@
 **docker build -t gateway:1.0.0 .** <br/>
 
 ## Running and Testing
-**Run** docker container run -d -p 4001:4000 --name server-01 -e "server=one" server-app:1.0.0** <br/>
-**Run** docker container run -d -p 4002:4000 --name server-02 -e "server=two" server-app:1.0.0** <br/>
-**Run** docker container run -d -p 4003:4000 --name server-03 -e "server=three" server-app:1.0.0** <br/><br/>
+**Run** docker container run -d -p 4001:4000 --name server-01 -e "server=one" server-app:1.0.0 <br/>
+**Run** docker container run -d -p 4002:4000 --name server-02 -e "server=two" server-app:1.0.0 <br/>
+**Run** docker container run -d -p 4003:4000 --name server-03 -e "server=three" server-app:1.0.0 <br/><br/>
 **till the no. of servers you want to redirect to** <br/>
 
 ## Now We have three instances running if you open the browser and visit 
